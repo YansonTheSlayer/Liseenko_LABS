@@ -1,0 +1,4 @@
+﻿  task7_main.c
+c:\users\адм\desktop\оп\лаба1\проект1\проект1\task7_main.c(11): warning C4305: =: усечение из "double" в "float"
+task7_main.obj : error LNK2019: ссылка на неразрешенный внешний символ _func в функции _main
+C:\Users\адм\Desktop\ОП\Лаба1\task8_exe\Debug\task8_exe.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
