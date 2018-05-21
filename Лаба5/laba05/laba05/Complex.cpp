@@ -1,13 +1,13 @@
 #include "Complex.h"
-
+#include <math.h>
 double Complex::getReal() const
 {
-	return this->real;
+	return real;
 }
 
 double Complex::getImaginary() const
 {
-	return this->imaginary;
+	return imaginary;
 }
 
 void Complex::setReal(double real)
@@ -19,29 +19,55 @@ void Complex::setImaginary(double imaginary)
 {
 	this->imaginary = imaginary;
 }
-
-Complex::Complex(double real, double imaginary)
-	:real(real), imaginary(imaginary)
-{ 
-
+Complex::Complex(){
+	real = 0.0;
+	imaginary = 0.0;
 }
-
-ostream & operator << (ostream & stream, const Complex &z)
+Complex::Complex(double re, double imag)
 {
-	if (z.getImaginary() >= 0)
-	{
-		stream << z.getReal() << "+" << z.getImaginary() << "*i";
-	}
-	else
-	{
-		stream << z.getReal() << z.getImaginary() << "*i";
-	}
-	return stream;
+	real = re;
+	imaginary = imag;
 }
+Complex epow(const Complex &z)
+{
+    double real, imag;
+    double expR, expI;
+    real = z.getReal();
+    imag = z.getImaginary();
+    expR = exp(real)*cos(imag);
+    expI = exp(real)*sin(imag);
+    return Complex(expR, expI);
+}
+Complex logC(Complex z)
+{
+    double r, phi;
+
+    r = sqrt(pow(z.getReal(), 2) + pow(z.getImaginary(), 2));
+
+    phi = atan2(z.getImaginary(), z.getReal());
+
+    return Complex(log(r), phi);
+}
+Complex powC(Complex a, Complex b)
+{
+    return epow(b*logC(a));
+
+}
+
+
 
 Complex operator -(Complex a, Complex b)
 {
 	return Complex(a.getReal() - b.getReal(), a.getImaginary() - b.getImaginary());
+}
+Complex operator +(Complex a, Complex b)
+{
+    return Complex(a.getReal() + b.getReal(), a.getImaginary() + b.getImaginary());
+}
+Complex operator *(Complex a, Complex b)
+{
+
+    return Complex(a.getReal() * b.getReal() - a.getImaginary() * b.getImaginary(), a.getImaginary() * b.getReal() + a.getReal() * b.getImaginary());
 }
 
 Complex operator /(Complex a, Complex b)
@@ -49,32 +75,5 @@ Complex operator /(Complex a, Complex b)
 	return Complex(((a.getReal() * b.getReal()) - (a.getImaginary()*b.getImaginary()*(-1))) / (pow(b.getReal(), 2) + pow(b.getImaginary(), 2)), ((a.getReal()*b.getImaginary()*(-1)) + (a.getImaginary()*b.getReal())) / (pow(b.getReal(), 2) + pow(b.getImaginary(), 2)));
 }
 
-Complex pow(const Complex &z, int stepen)
-{
-	Complex result(0, 0);
 
-	for (int i = 0; i <= stepen; i++)
-	{
-		switch (i % 4)
-		{
-		case 1:
-			result.setImaginary((factorial(stepen) / (factorial(i)*factorial(stepen - i)))*pow(z.getReal(), stepen - i)*pow(z.getImaginary(), i));
-			break;
-		case 2:
-			result.setReal((factorial(stepen) / (factorial(i)*factorial(stepen - i)))*pow(z.getReal(), stepen - i)*pow(z.getImaginary(), i));
-			break;
-		case 3:
-			result.setImaginary((factorial(stepen) / (factorial(i)*factorial(stepen - i)))*pow(z.getReal(), stepen - i)*pow(z.getImaginary(), i));
-			break;
-		case 0:
-			result.setReal((factorial(stepen) / (factorial(i)*factorial(stepen - i)))*pow(z.getReal(), stepen - i)*pow(z.getImaginary(), i));
-			break;
-		}
-	}
-	return result;
-}
 
-Complex tanh(const Complex &z)
-{
-	return Complex(sinh(2 * z.getReal()), sin(2 * z.getImaginary())) / Complex(cosh(2 * z.getReal()) + cos(2 * z.getImaginary()), 0);
-}

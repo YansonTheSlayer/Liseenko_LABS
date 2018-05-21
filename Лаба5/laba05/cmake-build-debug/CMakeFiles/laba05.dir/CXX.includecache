@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Admin/Downloads/Liseenko_LABS-master/Лаба5/laba05/laba05/Complex.cpp
+Complex.h
+/Users/Admin/Downloads/Liseenko_LABS-master/Лаба5/laba05/laba05/Complex.h
+math.h
+-
+
+/Users/Admin/Downloads/Liseenko_LABS-master/Лаба5/laba05/laba05/Complex.h
+iostream
+/Users/Admin/Downloads/Liseenko_LABS-master/Лаба5/laba05/laba05/iostream
+
+/Users/Admin/Downloads/Liseenko_LABS-master/Лаба5/laba05/laba05/main.cpp
+Complex.h
+/Users/Admin/Downloads/Liseenko_LABS-master/Лаба5/laba05/laba05/Complex.h
+
