@@ -1,0 +1,3 @@
+/Users/Admin/Downloads/Liseenko_LABS-master/Лаба5/laba05/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Admin/Downloads/Liseenko_LABS-master/Лаба5/laba05/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Admin/Downloads/Liseenko_LABS-master/Лаба5/laba05/cmake-build-debug/CMakeFiles/laba05.dir

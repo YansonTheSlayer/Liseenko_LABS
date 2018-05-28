@@ -1,6 +1,1 @@
-﻿  task1.c
-  task2.c
-c:\users\адм\desktop\опсии\projects\lab2\lab2\task2.c(2): warning C4013: sin: нет определения; предполагается "extern" с возвратом типа "int"
-c:\users\адм\desktop\опсии\projects\lab2\lab2\task2.c(2): warning C4013: pow: нет определения; предполагается "extern" с возвратом типа "int"
-  Создание кода...
-  Lab2.vcxproj -> C:\Users\адм\Desktop\ОПСИИ\Projects\Lab2\Debug\Lab2.exe
+﻿  Lab2.vcxproj -> C:\Users\адм\Desktop\ОП\Liseenko_LABS\Лаба2\Lab2\Debug\Lab2.exe
