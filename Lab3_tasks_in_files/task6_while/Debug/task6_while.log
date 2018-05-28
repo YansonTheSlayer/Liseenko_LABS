@@ -1,0 +1,23 @@
+﻿  task6_main.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task6_while\task6_main.c(11): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task6_while\task6_main.c(20): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
+  task5_func.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task5_while\task5_func.c(1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task5_while\task5_func.c(8): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  task4_func.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task4_while\task4_func.c(1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task4_while\task4_func.c(7): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task4_while\task4_func.c(8): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task4_while\task4_func.c(4): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  task3_func.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task3_while\task3_func.c(5): warning C4013: printf: нет определения; предполагается "extern" с возвратом типа "int"
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task3_while\task3_func.c(9): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  task2_func.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task2_while\task2_func.c(7): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task2_while\task2_func.c(8): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task2_while\task2_func.c(4): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  task1_func.c
+  Создание кода...
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task5_while\task5_func.c(21): warning C4715: findFirstNegativeElement: значение возвращается не при всех путях выполнения
+  task6_while.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab_3\Debug\task6_while.exe
+  task6_while.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab_3\Debug\task6_while.pdb (Partial PDB)
