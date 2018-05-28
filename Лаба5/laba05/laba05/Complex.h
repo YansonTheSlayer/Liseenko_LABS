@@ -21,5 +21,11 @@ public:
 	friend Complex powC(Complex z, Complex a);
 	friend Complex logC(Complex z);
 	friend Complex epow(const Complex &z);
+<<<<<<< HEAD
 
 };
+=======
+
+};
+
+>>>>>>> 7516487974568a5e0422c1030bc5f0fd2de538f2

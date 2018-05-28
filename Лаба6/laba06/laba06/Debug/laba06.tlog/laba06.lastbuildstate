@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 #TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0.16299.0
 Debug|Win32|C:\Users\адм\Desktop\ОПСИИ\ООПСЗИ\ООПСЗИ\лабы\laba06\|
+=======
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0.16299.0
+Debug|Win32|C:\Users\адм\Desktop\ОПСИИ\ООПСЗИ\ООПСЗИ\лабы\laba06\|
+>>>>>>> 7516487974568a5e0422c1030bc5f0fd2de538f2
