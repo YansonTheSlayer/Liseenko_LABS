@@ -1,0 +1,10 @@
+﻿  task5_main.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab1\task5\task5_main.c(18): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab1\task5\task5_main.c(9): warning C4477: "scanf": в строке форматирования "%f" требуется аргумент типа "float *", но вариативный аргумент "1" имеет тип "double *"
+  c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab1\task5\task5_main.c(9): note: рекомендуется использовать "%lf" в строке форматирования
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab1\task5\task5_main.c(14): warning C4477: "scanf": в строке форматирования "%f" требуется аргумент типа "float *", но вариативный аргумент "1" имеет тип "double *"
+  c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab1\task5\task5_main.c(14): note: рекомендуется использовать "%lf" в строке форматирования
+  task5_func.c
+  Создание кода...
+  task5.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab1\Debug\task5.exe
+  task5.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab1\Debug\task5.pdb (Partial PDB)
