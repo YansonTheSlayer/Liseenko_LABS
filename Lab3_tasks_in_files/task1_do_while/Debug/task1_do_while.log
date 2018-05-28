@@ -1,0 +1,6 @@
+﻿  task1_main.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task1_do_while\task1_main.c(14): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
+  task1_func.c
+  Создание кода...
+  task1_do_while.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab_3\Debug\task1_do_while.exe
+  task1_do_while.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab_3\Debug\task1_do_while.pdb (Partial PDB)
