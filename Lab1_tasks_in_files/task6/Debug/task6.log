@@ -1,0 +1,8 @@
+﻿  task6_main.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab1\task6\task6_main.c(10): warning C4013: fun: нет определения; предполагается "extern" с возвратом типа "int"
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab1\task6\task6_main.c(18): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
+  task6_func.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab1\task6\task6_func.c(8): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  Создание кода...
+  task6.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab1\Debug\task6.exe
+  task6.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab1\Debug\task6.pdb (Partial PDB)

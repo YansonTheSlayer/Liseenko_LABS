@@ -1,0 +1,7 @@
+﻿  task7_main.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab1\task7\task7_main.c(13): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
+  task7_func.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab1\task7\task7_func.c(5): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  Создание кода...
+  task7.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab1\Debug\task7.exe
+  task7.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab1\Debug\task7.pdb (Partial PDB)
