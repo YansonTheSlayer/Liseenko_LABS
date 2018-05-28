@@ -1,0 +1,8 @@
+﻿  task4_main.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task4_for\task4_main.c(12): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
+  task4_func.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task4_for\task4_func.c(1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task4_for\task4_func.c(7): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  Создание кода...
+  task4_for.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab_3\Debug\task4_for.exe
+  task4_for.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab_3\Debug\task4_for.pdb (Partial PDB)
