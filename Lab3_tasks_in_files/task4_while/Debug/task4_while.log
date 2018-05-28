@@ -1,0 +1,10 @@
+﻿  task4_main.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task4_while\task4_main.c(12): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
+  task4_func.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task4_while\task4_func.c(1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task4_while\task4_func.c(7): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task4_while\task4_func.c(8): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task4_while\task4_func.c(4): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  Создание кода...
+  task4_while.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab_3\Debug\task4_while.exe
+  task4_while.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab_3\Debug\task4_while.pdb (Partial PDB)

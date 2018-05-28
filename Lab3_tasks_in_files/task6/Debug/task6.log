@@ -1,0 +1,19 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (task6.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  task6_main.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task6\task6_main.c(11): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task6\task6_main.c(20): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
+  task5_func.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task5_for\task5_func.c(1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task5_for\task5_func.c(8): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  task4_func.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task4_for\task4_func.c(1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task4_for\task4_func.c(7): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  task3_func.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task3_for\task3_func.c(5): warning C4013: printf: нет определения; предполагается "extern" с возвратом типа "int"
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task3_for\task3_func.c(8): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  task2_func.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task2_for\task2_func.c(7): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  task1_func.c
+  Создание кода...
+  task6.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab_3\Debug\task6_for.exe
+  task6.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab_3\Debug\task6_for.pdb (Partial PDB)
