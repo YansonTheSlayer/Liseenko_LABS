@@ -1,0 +1,9 @@
+﻿  task2_main.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task2_while\task2_main.c(13): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
+  task2_func.c
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task2_while\task2_func.c(7): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task2_while\task2_func.c(8): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\yurik\onedrive\документы\visual studio 2017\projects\lab_3\task2_while\task2_func.c(4): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  Создание кода...
+  task2_while.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab_3\Debug\task2_while.exe
+  task2_while.vcxproj -> c:\users\yurik\onedrive\документы\visual studio 2017\Projects\Lab_3\Debug\task2_while.pdb (Partial PDB)
